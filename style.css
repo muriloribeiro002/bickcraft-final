@@ -1,0 +1,39 @@
+body {
+  margin: 0px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.header-bg {
+  background-color: #000;
+}
+
+ul {
+  list-style: none;
+}
+
+.header-menu {
+  display: flex;
+  gap: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+.header-menu a {
+  display: inline-block;
+  color: #fff;
+  padding: 16px 0px;
+  font-size: 18px;
+}
